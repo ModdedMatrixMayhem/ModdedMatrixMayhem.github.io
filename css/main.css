@@ -38,7 +38,8 @@
     margin: 0;
 }
   #container {
-    width:989px;
+    width:820px;
+    height:738px;
     min-height: -webkit-calc(100% - 100px);     /* Chrome */
     min-height: -moz-calc(100% - 100px);     /* Firefox */
     min-height: calc(100% - 100px);     /* native */
