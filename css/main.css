@@ -1,0 +1,101 @@
+/*main.css*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /*=========================================
+    Main Styles
+    =========================================*/
+    
+  html, body {
+    height: 100%;
+    margin: 0;
+}
+  #container {
+    width:989px;
+    min-height: -webkit-calc(100% - 100px);     /* Chrome */
+    min-height: -moz-calc(100% - 100px);     /* Firefox */
+    min-height: calc(100% - 100px);     /* native */
+    margin: 0 auto;
+  }
+
+  body{
+  background-color:black;
+  font-family: Georgia, Helvetica, serif;
+  color:red;
+}
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: Verdana, Arial, sans-serif;
+  }
+
+  h1{
+    font-size:2em;
+    font-weight:bold;
+    padding-left:8em;
+    padding-top:2em;
+  }
+ 
+iframe{
+  float:right;
+} 
+  
+  article{
+    padding-left:9em;
+    line-height:1.5em;
+  }
+  
+
+  footer{
+    text-align: center;
+    position: relative;
+    clear: both;
+    top: 2em;
+    background-color: red;
+    width: 100%;
+    height:1em;
+    font-family: Jokerman, serif;
+    font-size: 2em;
+        
+  }
+
+
+
+
+  #foottext{
+    color: #CCB607;
+    padding-top: 1em;
+    
+  }
+  
+  article {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+  }
