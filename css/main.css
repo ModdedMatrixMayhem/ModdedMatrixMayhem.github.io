@@ -49,7 +49,7 @@
   body{
   background-color:black;
   font-family: Georgia, Helvetica, serif;
-  font-size: 2em;
+  font-size: 1em;
   color:red;
 }
 
@@ -58,7 +58,7 @@
   }
 
   h1{
-    font-size:2.5em;
+    font-size:1.5em;
     font-weight:bold;
     padding-left:8em;
     padding-top:2em;
